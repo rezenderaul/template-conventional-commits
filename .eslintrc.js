@@ -13,7 +13,7 @@ module.exports = {
         eqeqeq: 'error',
         'function-paren-newline': 'off',
         indent: ['error', 4],
-        'linebreak-style': [4, 'unix'],
+        'linebreak-style': [2, 'unix'],
         'no-console': [
             'error',
             {

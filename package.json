@@ -4,7 +4,8 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
-        "eslint-prettier": "npx eslint --fix  --ext .js && npx prettier --write --ignore-unknown .",
+        "eslint": "npx eslint --fix  --ext .js",
+        "prettier": "npx prettier --write --ignore-unknown .",
         "prepare": "husky install"
     },
     "devDependencies": {

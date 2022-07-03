@@ -1,0 +1,17 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "eslint-prettier": "npx eslint --fix  --ext .js && npx prettier --write --ignore-unknown .",
+        "prepare": "husky install"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0 || ^8.2.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.2",
+        "prettier": "npm:@btmills/prettier",
+        "husky": "^8.0.0"
+    }
+}
